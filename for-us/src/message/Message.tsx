@@ -1,4 +1,3 @@
-import React from "react";
 import "./Message.css"; // Import the CSS file for styling
 
 function Message() {

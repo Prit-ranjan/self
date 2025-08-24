@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./Heartbeat.css"; // Import the CSS file for styling
 import Love from "../love/Love";
 

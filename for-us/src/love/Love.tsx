@@ -1,4 +1,3 @@
-import React from "react";
 import "./Love.css"; // Import the CSS file for styling
 import { useNavigate } from "react-router-dom";
 import { FaEnvelope } from "react-icons/fa";
