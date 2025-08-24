@@ -5,10 +5,10 @@ import Message from "./message/Message";
 
 function App() {
   return (
-    <HashRouter basename="/self">
+    <HashRouter>
       <Routes>
-        <Route path="/" element={<Heartbeat />} />
-        <Route path="/message" element={<Message />} />
+        <Route path="/self" element={<Heartbeat />} />
+        <Route path="/self/message" element={<Message />} />
       </Routes>
     </HashRouter>
   );
