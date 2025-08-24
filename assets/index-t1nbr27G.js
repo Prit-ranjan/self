@@ -73,7 +73,6 @@ I hope I will be able to convince you. My life is nothing without you.
 Please please please be with me, stand with me, I can't imagine my life without you..... Bht yaad aati tumhare. Please contact me.
 I really really wanna marry you and you only.
 Will you marry me? Please...
-
 I Loved You, I Love You, I will be Loving You.
 
 "I met you when I was not looking for you. I lost you, when I Loved you the most"
