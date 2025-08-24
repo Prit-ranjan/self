@@ -70,7 +70,7 @@ giving all my efforts. This is very painful for me, but I know if I succeed, i w
 everything. I will be on top of the world. But what if i fail? Ummm, not thinking about that, I have to get over this challenging time.
 I hope I will be able to convince you. My life is nothing without you.
 
-Please please please be with me, stand with me, I can't imagine my life without you.....
+Please please please be with me, stand with me, I can't imagine my life without you..... Bht yaad aati tumhare. Please contact me.
 
 I Loved You, I Love You, I will be Loving You.
 
