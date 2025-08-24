@@ -1,0 +1,72 @@
+/* Container for centering the text */
+.love-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cursive", sans-serif;
+}
+
+/* Styling for the text */
+.love-text {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: glow 2s infinite alternate;
+}
+
+/* Animation for glowing effect */
+@keyframes glow {
+  from {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5),
+      0 0 10px rgba(255, 255, 255, 0.4), 0 0 20px rgba(255, 192, 203, 0.6),
+      0 0 30px rgba(255, 105, 180, 0.8);
+  }
+  to {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8),
+      0 0 15px rgba(255, 192, 203, 0.7), 0 0 25px rgba(255, 105, 180, 0.9),
+      0 0 35px rgba(255, 20, 147, 1);
+  }
+}
+
+/* Styling for the clickable letter icon */
+.clickable-letter {
+  font-size: 3rem;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  animation: bounce 2s infinite;
+  transition: transform 0.2s ease-in-out;
+}
+
+.clickable-letter:hover {
+  transform: scale(1.2);
+}
+
+/* Styling for the letter icon */
+.letter-icon {
+  font-size: 4rem;
+  color: red; /* Set the icon color to red */
+}
+
+/* Bounce animation for the letter */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.cool-text {
+  font-size: 1.5rem; /* Slightly larger font size */
+  color: #ff1493; /* Bright pink color */
+  text-align: center; /* Center the text */
+  font-family: "Arial", sans-serif; /* Use a clean, modern font */
+  font-weight: bold; /* Make the text bold */
+  margin-top: 20px; /* Add some spacing above */
+  line-height: 1.6; /* Improve line spacing */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+}

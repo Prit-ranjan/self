@@ -1,0 +1,80 @@
+/* Full-page container with a background image */
+.message-container {
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-image: url("/hearts.jpg");
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the image */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Frame styling for the text box */
+.text-frame {
+  padding: 5px;
+  border: 10px solid #fd044b; /* Frame border color */
+  border-radius: 15px; /* Rounded corners for the frame */
+  animation: slideIn 1.5s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+/* Text box styling */
+.text-box {
+  width: 80vw; /* Width of the text box */
+  height: 70vh; /* Height of the text box */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Semi-transparent border */
+  padding: 80px; /* Padding inside the text box */
+  font-family: Arial, sans-serif; /* Font family */
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line height */
+  letter-spacing: 1.5px;
+  white-space: pre-wrap; /* Preserve spaces and line breaks */
+  background: rgba(24, 1, 1, 0.1); /* Transparent background */
+  backdrop-filter: blur(12px); /* Blur effect for the glass effect */
+  -webkit-backdrop-filter: blur(12px); /* Safari support for backdrop-filter */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  outline: none; /* Remove default outline */
+  resize: none; /* Disable resizing */
+  color: white;
+  overflow: hidden;
+  animation: blurFadeIn 1.5s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start fully transparent */
+  }
+  to {
+    opacity: 1; /* End fully visible */
+  }
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+  from {
+    transform: translateY(50px); /* Start below the viewport */
+    opacity: 0; /* Start fully transparent */
+  }
+  to {
+    transform: translateY(0); /* End at the original position */
+    opacity: 1; /* End fully visible */
+  }
+}
+
+/* Combined blur and fade-in animation */
+@keyframes blurFadeIn {
+  from {
+    opacity: 0; /* Start fully transparent */
+    backdrop-filter: blur(0px); /* Start with no blur */
+    -webkit-backdrop-filter: blur(0px); /* Safari support */
+  }
+  to {
+    opacity: 1; /* End fully visible */
+    backdrop-filter: blur(12px); /* End with full blur */
+    -webkit-backdrop-filter: blur(12px); /* Safari support */
+  }
+}
