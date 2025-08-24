@@ -79,4 +79,4 @@ I Loved You, I Love You, I will be Loving You.
 Only Yours,
 Bail
 
-`,readOnly:!0})})})}function O0(){return it.jsx(a0,{children:it.jsxs(Cy,{children:[it.jsx(_c,{path:"/",element:it.jsx(A0,{})}),it.jsx(_c,{path:"/message",element:it.jsx(R0,{})})]})})}wv.createRoot(document.getElementById("root")).render(it.jsx(D.StrictMode,{children:it.jsx(O0,{})}));
+`,readOnly:!0})})})}function O0(){return it.jsx(a0,{basename:"/self",children:it.jsxs(Cy,{children:[it.jsx(_c,{path:"/",element:it.jsx(A0,{})}),it.jsx(_c,{path:"/message",element:it.jsx(R0,{})})]})})}wv.createRoot(document.getElementById("root")).render(it.jsx(D.StrictMode,{children:it.jsx(O0,{})}));
