@@ -5,7 +5,7 @@ import Message from "./message/Message";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/self">
       <Routes>
         <Route path="/" element={<Heartbeat />} />
         <Route path="/message" element={<Message />} />
