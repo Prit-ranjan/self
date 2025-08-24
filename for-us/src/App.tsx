@@ -7,8 +7,8 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/self" element={<Heartbeat />} />
-        <Route path="/self/message" element={<Message />} />
+        <Route path="/" element={<Heartbeat />} />
+        <Route path="/message" element={<Message />} />
       </Routes>
     </HashRouter>
   );
