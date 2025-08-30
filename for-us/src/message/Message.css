@@ -39,8 +39,14 @@
   outline: none; /* Remove default outline */
   resize: none; /* Disable resizing */
   color: white;
-  overflow: hidden;
+  overflow-y: auto;
   animation: blurFadeIn 1.5s ease-in-out;
+}
+
+@media screen and (max-width: 480px) {
+  .text-box{
+    padding: 20px;
+  }
 }
 
 /* Fade-in animation */
